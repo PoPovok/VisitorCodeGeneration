@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
             VisitorCodeGenerationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)){
-
+                        Presentation()
                     }
                 }
             }
